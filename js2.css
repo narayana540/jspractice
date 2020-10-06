@@ -1,0 +1,30 @@
+.max-height {
+    min-height: 50vh;
+  }
+  body {
+    background: #b09e99;
+  }
+  .btn{
+    margin: 60px auto;
+    color: white !important;
+    background: #64b6ac !important;
+    border-color: #64b6ac !important;
+    font-size:1.5rem;
+  }
+  .btn:hover{
+    color: black !important;
+    background:#b09e99 !important;
+  }
+  .auth{
+      color:#64b6ac !important;
+      margin-right:auto;
+  }
+  
+  .quote-container {
+    background: rgba(255, 255, 255, 0.5);
+    margin:200px auto;
+    width:50%;
+  }
+ h5{
+     padding:auto;
+ }

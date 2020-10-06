@@ -1,0 +1,35 @@
+body{
+    background-color:lightBlue;
+}
+.query-container{
+    height: auto;
+    width:50%;
+    margin: 0;
+    background-color:white;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
+
+ form{
+    text-align:center; 
+ }
+ .submit-button{
+     background-color:lightblue;
+     color:white;
+     width:20%;
+ }
+ .submit-button:hover{
+    color:black;
+ }
+ .alert-danger{
+   text-align:center;
+ }
+    /* background-color:white;
+    margin:100px 50px 50px 0;
+    
+    width:50%;
+    text-align:center;
+    height:100px; */

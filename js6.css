@@ -1,0 +1,65 @@
+@import url(https://allfont.net/allfont.css?fonts=kaushan-script);
+body {
+    font-family: "Kaushan Script", cursive;
+    background: white;
+    color: black;
+  }
+  .nav-link{
+      color:palevioletred;
+      font-size:1.8rem;
+  }
+  .nav-link:hover{
+    color:black;
+  }
+  #cart-info{
+      border:0.5px solid black;
+      border-radius:0.25rem;
+      padding:0.4rem 0.6rem;
+  }
+  #cart-info:hover{
+      color:white;
+      background-color: palevioletred;
+      border:0.5px solid palevioletred;
+  }
+  .bgImage{
+      height: 100%;
+      background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)),url(cakeImages/headerBcg.jpeg);
+      background-size: cover;  
+      background-attachment:fixed;
+      
+       
+  }
+  .banner{
+      color:white;
+      text-align:center;
+      top:50%;
+      left:50%;
+      position:absolute;
+      transform:translate(-50%,-50%);
+      font-size:20px;
+      bottom:50%;
+  }
+  .banner-title{
+      color:palevioletred;
+      font-size:50px;
+  }
+.belowtxt{
+    border:1px solid black;
+    font-size:25px;
+    color:black;
+    font-weight: 550;
+
+}
+.belowtxt:hover{
+  background-color: black;
+  color:palevioletred;
+}
+.weltxt{
+    font-size: 30px;
+}
+
+
+
+
+
+ 

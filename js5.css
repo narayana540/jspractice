@@ -1,0 +1,47 @@
+.img-container{
+    min-height:70vh;
+    background:url(img/headerBcg.jpeg);
+    background-repeat:no-repeat;
+    border:0.5rem solid royalblue;
+    border-radius:0.5rem;
+}
+.min-height{
+   max-height: 100vh;
+   text-align: center;
+}
+
+  @media screen and (min-width: 320px) {
+    .img-container {
+        min-height:90vh;
+    }
+  }
+  .btn-left{
+      top:50%;
+      left:0;
+      position:absolute;
+      color:white;
+      background-color:royalblue;
+      transform:translate(-50%,-50%);
+      font-size: 1.8rem;
+      border:0.5rem solid royalblue;
+
+  }
+
+  .btn-right{
+    top:50%;
+    right:0;
+    position:absolute;
+    color:white;
+    background-color:royalblue;
+    transform:translate(50%,-50%);
+    font-size: 1.8rem;
+    border:0.5rem solid royalblue;
+}
+.btn-right:hover{
+   background-color:white;
+   color:royalblue;
+}
+.btn-left:hover{
+    background-color:white;
+    color:royalblue;
+}
